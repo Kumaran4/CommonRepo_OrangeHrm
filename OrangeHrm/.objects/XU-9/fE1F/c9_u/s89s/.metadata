@@ -1,0 +1,16 @@
+﻿{
+  "Name": "UrlName",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "s89sGdZ7HEm9j42p_HDo9w",
+  "Reference": "vpNzrhQL40azjm9vslQ0xg/s89sGdZ7HEm9j42p_HDo9w",
+  "ParentRef": "vpNzrhQL40azjm9vslQ0xg/c9_usUu-pEKAYr-7DgbyMg",
+  "Created": "2024-01-25T12:49:33.4982787Z",
+  "Updated": "2024-01-25T12:50:28.3712738Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
