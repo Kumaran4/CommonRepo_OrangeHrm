@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hiPyav_YBEGMWYepXtdWDg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CvElementArea="915, 728, 437, 66" CvType="InputBox" DesignTimeRectangle="920, 731, 430, 61" DesignTimeScaleFactor="1.3499999046325684" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' idx='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='oxd-input oxd-input--active' tag='INPUT' aaname='' /&gt;" Guid="edbb7c3d-97f0-4449-9d32-5a2ff8e15e02" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="918, 702, 124, 15" CvTextArgument="Contact Number" CvType="Text" DesignTimeRectangle="920, 700, 121, 22" ElementType="Text" FriendlyName="'Contact Number'" FullSelectorArgument="&lt;webctrl aaname='Contact Number' class='oxd-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Contact Number' class='oxd-label' tag='LABEL' type='' check:innerText='Contact Number' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="66300f52b8df72cdf00d7dbcd3c708e2.png" xmlns="">0bZU5BCnlu0W9-Qf3T4iCqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

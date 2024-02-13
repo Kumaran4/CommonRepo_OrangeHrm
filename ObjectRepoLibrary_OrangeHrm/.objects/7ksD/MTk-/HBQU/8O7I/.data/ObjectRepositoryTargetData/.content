@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eeGfqkr8Gk29cUdgMqat3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CvElementArea="452, 582, 900, 113" CvType="InputBox" DesignTimeRectangle="458, 586, 892, 108" DesignTimeScaleFactor="1.3499999046325684" ElementType="InputBox" FriendlyName="'TEXTAREA'" FullSelectorArgument="&lt;webctrl tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='oxd-textarea oxd-textarea--active oxd-textarea--resize-vertical' aaname='' /&gt;" Guid="677aac74-0f47-4188-a360-34949b84d778" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="456, 558, 45, 15" CvTextArgument="Notes" CvType="Text" DesignTimeRectangle="458, 555, 43, 22" ElementType="Text" FriendlyName="'Notes'" FullSelectorArgument="&lt;webctrl aaname='Notes' class='oxd-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Notes' class='oxd-label' tag='LABEL' type='' check:innerText='Notes' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="05d4e719eee6432c3fadf25fbe9b4e16.png" xmlns="">0Y7sBU7mOaUyL5wApocNuzg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

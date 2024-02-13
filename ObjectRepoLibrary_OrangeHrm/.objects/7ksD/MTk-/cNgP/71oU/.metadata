@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Button_CreateLoginDetails",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "71oUGiD8m0SIwEOqIV3y8g",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/71oUGiD8m0SIwEOqIV3y8g",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/cNgPKl12o0G-0JKz4S_1pw",
+  "Created": "2024-02-10T09:00:02.4867985Z",
+  "Updated": "2024-02-10T09:00:31.9482271Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

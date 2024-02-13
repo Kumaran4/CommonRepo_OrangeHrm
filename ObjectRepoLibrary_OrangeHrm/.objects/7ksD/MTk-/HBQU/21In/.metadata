@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Textbox_Keywords",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "21InzcOORki8yeEA8dHNhA",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/21InzcOORki8yeEA8dHNhA",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/HBQUVmo5yE2Edv2nO8mZgg",
+  "Created": "2024-02-11T05:08:01.6337154Z",
+  "Updated": "2024-02-11T05:08:57.0519839Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Upload_Resume",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "L5AwX5HTQUylS2zu0Jr4JQ",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/L5AwX5HTQUylS2zu0Jr4JQ",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/HBQUVmo5yE2Edv2nO8mZgg",
+  "Created": "2024-02-11T05:04:29.0952711Z",
+  "Updated": "2024-02-11T05:07:36.5957101Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

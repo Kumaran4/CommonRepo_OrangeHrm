@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Page_Admin",
+  "Type": "Screen",
+  "Id": "OUNVELFPXEe_pzEBI8Mz9Q",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/OUNVELFPXEe_pzEBI8Mz9Q",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/MTk-uo1rBEi5-e29Cqy_Cw",
+  "Created": "2024-02-08T03:20:59.6280443Z",
+  "Updated": "2024-02-08T03:21:09.5703945Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

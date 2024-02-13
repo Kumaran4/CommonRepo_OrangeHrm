@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7WE182OMB0ac98NWBlTb5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" CvTextArea="495, 486, 220, 18" CvTextArgument="Browse No file selected" CvType="Text" DesignTimeRectangle="458, 466, 430, 61" DesignTimeScaleFactor="1.3499999046325684" FriendlyName="'BrowseNo file selected'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='8' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='oxd-file-div oxd-file-div--focus' parentid='app' tag='DIV' aaname='' check:innerText='Browse&amp;#xD;&amp;#xA;No file selected' /&gt;" Guid="fcd86e4d-ee99-4a4f-ba63-669a5c7d264e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a435bfbcbcb2213aacf1f12d71416c6f.png" xmlns="">06IPz857TBUqDbOSVg_1r4g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

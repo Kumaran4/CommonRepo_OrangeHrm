@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Textbox_LastName",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "AIgRYI-V8EK6J-SoPTOg9w",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/AIgRYI-V8EK6J-SoPTOg9w",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/HBQUVmo5yE2Edv2nO8mZgg",
+  "Created": "2024-02-11T04:51:17.0798996Z",
+  "Updated": "2024-02-11T04:52:14.537273Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

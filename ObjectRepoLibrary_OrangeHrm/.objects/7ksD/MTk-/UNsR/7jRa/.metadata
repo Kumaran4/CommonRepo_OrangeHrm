@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Dropdown_SubUnit",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "7jRaS_6IgE-32SkHfRr4lQ",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/7jRaS_6IgE-32SkHfRr4lQ",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/UNsRtVgqTEGvS8KKQbDgJA",
+  "Created": "2024-02-11T03:52:14.1528599Z",
+  "Updated": "2024-02-11T03:53:50.2443096Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

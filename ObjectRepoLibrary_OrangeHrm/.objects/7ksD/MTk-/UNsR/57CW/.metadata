@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Dropdown_EmploymentStatus",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "57CWZKAark6qxXBeer1qOQ",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/57CWZKAark6qxXBeer1qOQ",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/UNsRtVgqTEGvS8KKQbDgJA",
+  "Created": "2024-02-11T03:47:03.4216261Z",
+  "Updated": "2024-02-11T03:48:22.8915759Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

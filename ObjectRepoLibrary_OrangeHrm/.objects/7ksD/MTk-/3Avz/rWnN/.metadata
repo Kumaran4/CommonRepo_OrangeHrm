@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Button_Admin",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "rWnNL1VD-0iI8ccLoyCaTw",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/rWnNL1VD-0iI8ccLoyCaTw",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/3Avzkqt-8EWSo7Re2Cc9ow",
+  "Created": "2024-02-08T02:54:19.88028Z",
+  "Updated": "2024-02-08T02:55:42.7552131Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

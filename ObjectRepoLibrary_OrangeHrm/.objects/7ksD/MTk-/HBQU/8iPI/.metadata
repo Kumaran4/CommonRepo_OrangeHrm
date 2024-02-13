@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Date_DateofApplication",
+  "Type": "Element",
+  "TaxonomyType": "DatePicker",
+  "Id": "8iPIOz2eNkmcBS77K_MLeg",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/8iPIOz2eNkmcBS77K_MLeg",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/HBQUVmo5yE2Edv2nO8mZgg",
+  "Created": "2024-02-11T05:09:23.8370793Z",
+  "Updated": "2024-02-11T05:10:31.6181705Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

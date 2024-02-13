@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Textbox_EmployeeConfirmPassword",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "KlIIWoUnKUql_KMg7VfLvg",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/KlIIWoUnKUql_KMg7VfLvg",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/cNgPKl12o0G-0JKz4S_1pw",
+  "Created": "2024-02-10T09:08:39.0451686Z",
+  "Updated": "2024-02-10T09:09:00.8415257Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

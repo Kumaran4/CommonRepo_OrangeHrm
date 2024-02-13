@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Dropdown_HiringManager",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "bC5JJ_153kCeRGrmTw3CXg",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/bC5JJ_153kCeRGrmTw3CXg",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/a-Cy2s6kq0CTC1w_8GfjEA",
+  "Created": "2024-02-11T04:19:18.9748568Z",
+  "Updated": "2024-02-11T04:20:11.7196857Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

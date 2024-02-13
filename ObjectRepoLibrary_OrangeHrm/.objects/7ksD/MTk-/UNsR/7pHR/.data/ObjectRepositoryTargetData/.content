@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OvKlgsvwJUSy8CMO8hsHWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList" CvElementArea="1515, 764, 145, 47" CvTextArea="1561, 777, 51, 18" CvTextArgument="Reset" CvType="Button" DesignTimeRectangle="1520, 767, 137, 42" DesignTimeScaleFactor="1.3499999046325684" ElementType="Button" FriendlyName="'Reset'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='reset' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='reset' class='oxd-button oxd-button--medium oxd-button--ghost' aaname=' Reset ' check:innerText='Reset' /&gt;" Guid="aeb9d371-9025-4261-bc64-4ddbee730065" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8e2d94759d40bc2f17ec60517dfb8f74.png" xmlns="">0160Tl14md0ahKA_eNLPKLQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Textbox_ConfirmPassword",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "5IBOsDD1IkqT-NFVfbsRiA",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/5IBOsDD1IkqT-NFVfbsRiA",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/OUNVELFPXEe_pzEBI8Mz9Q",
+  "Created": "2024-02-08T04:12:36.3909689Z",
+  "Updated": "2024-02-08T04:14:52.2733331Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

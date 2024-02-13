@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nv1zNL742kiO3q49K4qbNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" CvElementArea="442, 412, 658, 87" CvType="InputBox" DesignTimeRectangle="521, 444, 154, 26" DesignTimeScaleFactor="1.3499999046325684" ElementType="Text" FriendlyName="'Invalid credentials'" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='oxd-text oxd-text--p oxd-alert-content-text' aaname='Invalid credentials' check:innerText='Invalid credentials' /&gt;" Guid="0cd9229b-7122-49bb-88b9-6454d06c4af5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cba66e9c3323e4e845bf956d089bf871.png" xmlns="">0KBTzOCpBY0eMzlepei8cwg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

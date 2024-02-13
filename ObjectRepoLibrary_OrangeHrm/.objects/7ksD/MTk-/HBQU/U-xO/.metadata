@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Textbox_ContactNumber",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "U-xOyXSZ1UGT79dvLIL_RQ",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/U-xOyXSZ1UGT79dvLIL_RQ",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/HBQUVmo5yE2Edv2nO8mZgg",
+  "Created": "2024-02-11T04:59:50.8839289Z",
+  "Updated": "2024-02-11T05:01:36.4784303Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

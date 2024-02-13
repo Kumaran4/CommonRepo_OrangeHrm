@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Button_MyInfo",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "GCTxB16Pfkqd9WrsXWV1gg",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/GCTxB16Pfkqd9WrsXWV1gg",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/3Avzkqt-8EWSo7Re2Cc9ow",
+  "Created": "2024-02-08T03:00:39.0233565Z",
+  "Updated": "2024-02-08T03:02:01.5699462Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

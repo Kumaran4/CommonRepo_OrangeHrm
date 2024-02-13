@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Textbox_EmployeeName",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "n2FPhu_vW0mEEhelR_bUkA",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/n2FPhu_vW0mEEhelR_bUkA",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/UNsRtVgqTEGvS8KKQbDgJA",
+  "Created": "2024-02-11T03:45:06.8297864Z",
+  "Updated": "2024-02-11T03:45:27.661033Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Message_ChromeAlertPop",
+  "Type": "Element",
+  "TaxonomyType": "Messagebox",
+  "Id": "QMFNXQSnuECNlclozptzpw",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/QMFNXQSnuECNlclozptzpw",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/a61xOI5vAkuCk4dLFZ4-8g",
+  "Created": "2024-02-08T02:36:11.3063868Z",
+  "Updated": "2024-02-08T02:36:55.7905433Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

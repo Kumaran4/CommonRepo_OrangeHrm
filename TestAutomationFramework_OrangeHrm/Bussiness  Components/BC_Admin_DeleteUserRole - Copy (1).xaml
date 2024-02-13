@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Workflow" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="902,4223.333333333333" sap2010:WorkflowViewState.IdRef="Workflow_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Workflow" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="902,4348.666666666667" sap2010:WorkflowViewState.IdRef="Workflow_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -108,7 +108,7 @@
       <AssemblyReference>ReporterForUiPath</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Workflow" sap:VirtualizedContainerService.HintSize="912,4158.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Workflow" sap:VirtualizedContainerService.HintSize="912,4284" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="Admin" Name="str_LoginUserName" />
       <Variable x:TypeArguments="x:String" Default="admin123" Name="str_LoginPassword" />
@@ -127,13 +127,16 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Page_Login" sap:VirtualizedContainerService.HintSize="850,4048" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsIncognito="False" OpenMode="Always" ScopeGuid="a91ee523-a2ee-4cfe-bad0-286d1e5423f7" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Page_Login" sap:VirtualizedContainerService.HintSize="850,4173.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsIncognito="False" OpenMode="Always" ScopeGuid="a91ee523-a2ee-4cfe-bad0-286d1e5423f7" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="816,3828.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="816,3954" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="doc_File" />
+            </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -237,15 +240,23 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <ui:SelectFile SelectedFile="{x:Null}" DisplayName="Browse For File" Filter="All files (*.*)|*.*" sap:VirtualizedContainerService.HintSize="754,141.33333333333334" sap2010:WorkflowViewState.IdRef="SelectFile_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Upload_Resume'" sap:VirtualizedContainerService.HintSize="754,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate" ContentHash="7WE182OMB0ac98NWBlTb5A" CvTextArea="495, 486, 220, 18" CvTextArgument="Browse No file selected" CvType="Text" DesignTimeRectangle="458, 466, 430, 61" DesignTimeScaleFactor="1.3499999046325684" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='8' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='oxd-file-div oxd-file-div--focus' parentid='app' tag='DIV' aaname='' check:innerText='Browse&amp;#xD;&amp;#xA;No file selected' /&gt;" Guid="fcd86e4d-ee99-4a4f-ba63-669a5c7d264e" InformativeScreenshot="a435bfbcbcb2213aacf1f12d71416c6f.png" Reference="hFfu5KskjUan_ffSuh-9Uw/L5AwX5HTQUylS2zu0Jr4JQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Assign sap:VirtualizedContainerService.HintSize="754,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[doc_File]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">["C:\Users\kumaran.carunanidy\Downloads\Rajasekar Resume.docx"]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:SelectFile DisplayName="Browse For File" Filter="Word|*.docx;*.doc;*.docm;*.dotx;*.dot" sap:VirtualizedContainerService.HintSize="754,141.33333333333334" sap2010:WorkflowViewState.IdRef="SelectFile_1" SelectedFile="[doc_File]" />
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_ProfileInfo'" sap:VirtualizedContainerService.HintSize="754,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index" ContentHash="JRRyMhRvIkOAoU12m6QWjg" CvTextArea="1711, 177, 97, 19" CvTextArgument="Diego Tester" CvType="Text" DesignTimeRectangle="1634, 149, 215, 73" DesignTimeScaleFactor="1.3499999046325684" FullSelectorArgument="&lt;webctrl class='oxd-userdropdown-tab' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='oxd-userdropdown-tab' tag='SPAN' type='' aaname='' check:innerText='Diego Tester' /&gt;" Guid="431d15c9-4efa-4a10-8bdb-faf2db6044d6" InformativeScreenshot="de9301129a088b61fd668aebed668eda.png" Reference="hFfu5KskjUan_ffSuh-9Uw/L_tjkBjxOUKyZBkU16qvAQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_LogOut'" sap:VirtualizedContainerService.HintSize="754,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" Version="V3">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index" ContentHash="q-LfkqjiI0qcJOWAopOoyg" CvTextArea="1651, 364, 52, 19" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1632, 354, 216, 38" DesignTimeScaleFactor="1.3499999046325684" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Logout' aria-role='menuitem' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' aria-role='menuitem' tag='A' type='' class='oxd-userdropdown-link' check:innerText='Logout' /&gt;" Guid="c434ebc1-0061-4f4d-ad7b-06e440cea1be" InformativeScreenshot="34e647cc15c2a705e8722155cfcd469b.png" Reference="hFfu5KskjUan_ffSuh-9Uw/Pknvb0md5kqwAlZ_fU_GnA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
           </Sequence>

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Page_PIM_EmployeeInformationSearch",
+  "Type": "Screen",
+  "Id": "UNsRtVgqTEGvS8KKQbDgJA",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/UNsRtVgqTEGvS8KKQbDgJA",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/MTk-uo1rBEi5-e29Cqy_Cw",
+  "Created": "2024-02-11T03:43:10.2973712Z",
+  "Updated": "2024-02-11T03:44:08.6377211Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

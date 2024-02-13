@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7xSJwEPZX0OXwVMaeXE7EQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates" CvTextArea="1161, 651, 39, 15" CvTextArgument="From" CvType="Text" DesignTimeRectangle="1151, 629, 314, 61" DesignTimeScaleFactor="1.3499999046325684" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' idx='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='oxd-input oxd-input--active' tag='INPUT' aaname='' /&gt;" Guid="c7d89ce1-f0ba-4472-8ec8-795ef07c5ac8" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1149, 601, 143, 18" CvTextArgument="Date of Application" CvType="Text" DesignTimeRectangle="1151, 599, 142, 22" ElementType="Text" FriendlyName="'Date of Application'" FullSelectorArgument="&lt;webctrl aaname='Date of Application' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Date of Application' tag='LABEL' type='' class='oxd-label' check:innerText='Date of Application' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1e48fde5b030fc2dd7d3ce2d89fcdf4d.png" xmlns="">0F8cuYUjvL0SFikcIHJYejg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lZHlHjkIWEC4yUe4ICXJuw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee" CvElementArea="1000, 790, 51, 30" CvType="Button" DesignTimeRectangle="1005, 795, 45, 24" DesignTimeScaleFactor="1.3499999046325684" FriendlyName="'SPAN'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;label&amp;gt;span' isleaf='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='SPAN' class='oxd-switch-input oxd-switch-input--active --label-right' aaname='' /&gt;" Guid="bed68fbc-b72f-49ef-87e4-755ab2011d06" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="825, 796, 157, 16" CvTextArgument="Create Login Details" CvType="Text" DesignTimeRectangle="828, 795, 156, 24" ElementType="Text" FriendlyName="'Create Login Details'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='P' class='oxd-text oxd-text--p user-form-header-text' aaname='Create Login Details' check:innerText='Create Login Details' /&gt;" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2c1f406792c28012a149479b70d8e61d.png" xmlns="">0McBKxj69Lkq4W198U9XGCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

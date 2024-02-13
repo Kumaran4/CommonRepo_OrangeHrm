@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Button_ProfileInfo",
+  "Type": "Element",
+  "TaxonomyType": "Listbox",
+  "Id": "L_tjkBjxOUKyZBkU16qvAQ",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/L_tjkBjxOUKyZBkU16qvAQ",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/a61xOI5vAkuCk4dLFZ4-8g",
+  "Created": "2024-02-08T03:16:48.306458Z",
+  "Updated": "2024-02-08T03:18:19.0317591Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

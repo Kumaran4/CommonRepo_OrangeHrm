@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Date_FromDateofApplication",
+  "Type": "Element",
+  "TaxonomyType": "Date",
+  "Id": "702pM6lL9keZXChQcSNo3Q",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/702pM6lL9keZXChQcSNo3Q",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/a-Cy2s6kq0CTC1w_8GfjEA",
+  "Created": "2024-02-11T04:24:38.1013743Z",
+  "Updated": "2024-02-11T04:32:21.7372247Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

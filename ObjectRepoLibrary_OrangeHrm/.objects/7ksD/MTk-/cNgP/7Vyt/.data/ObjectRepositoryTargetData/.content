@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pEiHkFPFq0qIJXZs_htsbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee" CvElementArea="1516, 793, 153, 48" CvTextArea="1563, 805, 60, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1521, 796, 146, 42" DesignTimeScaleFactor="1.3499999046325684" ElementType="Button" FriendlyName="'Cancel'" FullSelectorArgument="&lt;webctrl aaname=' Cancel ' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Cancel ' tag='BUTTON' type='button' class='oxd-button oxd-button--medium oxd-button--ghost' check:innerText='Cancel' /&gt;" Guid="9e689f41-bb99-4e38-921b-48448ce4d7c0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="62d2e95ffd44063be51d7018cc6f1c56.png" xmlns="">0BPF0efcqyUSLG5i2ceYiIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

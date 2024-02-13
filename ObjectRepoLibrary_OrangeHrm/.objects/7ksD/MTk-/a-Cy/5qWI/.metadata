@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Dropdown_JobTitle",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "5qWIDE_HnUmZdLUj0Fking",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/5qWIDE_HnUmZdLUj0Fking",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/a-Cy2s6kq0CTC1w_8GfjEA",
+  "Created": "2024-02-11T04:16:48.7167331Z",
+  "Updated": "2024-02-11T04:17:51.4946081Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
