@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Button_Recruitment",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "6AAyJKjCE0ubILfiEXXbHQ",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/6AAyJKjCE0ubILfiEXXbHQ",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/3Avzkqt-8EWSo7Re2Cc9ow",
+  "Created": "2024-02-08T02:59:21.625671Z",
+  "Updated": "2024-02-08T03:00:31.6598213Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Page_login",
+  "Type": "Screen",
+  "Id": "RV11jaHrNkyn5QeH0qDXgw",
+  "Reference": "LcAV6tpTkUKWJC_tGqZiWg/RV11jaHrNkyn5QeH0qDXgw",
+  "ParentRef": "LcAV6tpTkUKWJC_tGqZiWg/W0Ph5msB10unhCasWeTM_Q",
+  "Created": "2024-02-07T07:20:26.9853209Z",
+  "Updated": "2024-02-07T07:20:33.2789046Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

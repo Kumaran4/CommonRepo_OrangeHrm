@@ -1,0 +1,9 @@
+{
+  "Tags": [
+    {
+      "Key": "OrangeHrm"
+    }
+  ],
+  "SeparateRuntimeDependencies": true,
+  "IncludeSources": true
+}
