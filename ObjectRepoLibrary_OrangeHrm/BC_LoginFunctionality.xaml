@@ -1,4 +1,14 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Workflow" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1150,2534" sap2010:WorkflowViewState.IdRef="Workflow_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Workflow" this:Workflow.str_LoginPassword="admin123" this:Workflow.str_LoginUserName="Admin" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="str_LoginPassword" Type="InArgument(x:String)" />
+    <x:Property Name="str_LoginUserName" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
+  <sap:VirtualizedContainerService.HintSize>1194,2740.6666666666665</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Workflow_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>GlobalConstantsNamespace</x:String>
@@ -101,56 +111,60 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Workflow" sap:VirtualizedContainerService.HintSize="1112,2469.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Workflow" sap:VirtualizedContainerService.HintSize="1204,2676" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="LoginSucessfull" />
-      <Variable x:TypeArguments="x:String" Default="Admin" Name="str_LoginUserName" />
-      <Variable x:TypeArguments="x:String" Default="admin123" Name="str_LoginPassword" />
-      <Variable x:TypeArguments="x:String" Name="LoginUnsccessfull" />
-      <Variable x:TypeArguments="x:Int32" Name="int_RepId" />
-      <Variable x:TypeArguments="x:String" Name="str_TestId" />
+      <Variable x:TypeArguments="x:String" Name="LoginSucessfull">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Postive</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="LoginUnsccessfull">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Negative</Literal>
+        </Variable.Default>
+      </Variable>
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Page_Login" sap:VirtualizedContainerService.HintSize="1050,2358.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsIncognito="False" OpenMode="Always" ScopeGuid="a91ee523-a2ee-4cfe-bad0-286d1e5423f7" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Page_Login" sap:VirtualizedContainerService.HintSize="1142,2565.3333333333335" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsIncognito="True" OpenMode="Always" ScopeGuid="a91ee523-a2ee-4cfe-bad0-286d1e5423f7" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1016,2139.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1108,2346" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Textbox_UserName'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[str_LoginUserName]" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Textbox_UserName'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1046,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[str_LoginUserName]" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" ContentHash="D5m95OJkCEOaVpUews1m6A" CvElementArea="439, 597, 663, 66" CvType="InputBox" DesignTimeRectangle="445, 600, 654, 61" DesignTimeScaleFactor="1.3499999046325684" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='username' tag='INPUT' type='' class='oxd-input oxd-input--focus' aaname='' /&gt;" Guid="4b58588c-7025-49e1-bbfe-d85451b154a2" InformativeScreenshot="865a68547e724075501a33ae253ce11b.png" Reference="hFfu5KskjUan_ffSuh-9Uw/UNOTgjms20G6dkbaZusATg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Textbox_Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="[str_LoginPassword]" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Textbox_Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1046,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="[str_LoginPassword]" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" ContentHash="AXNH-bBAZ06T_-XDK5rLmA" CvElementArea="439, 714, 661, 66" CvType="InputBox" DesignTimeRectangle="445, 717, 654, 61" DesignTimeScaleFactor="1.3499999046325684" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='oxd-input oxd-input--active' aaname='' /&gt;" Guid="f873d707-8f24-46f6-9aa8-18c7494b923b" InformativeScreenshot="adc8e1479e1fde24a58b9a0d59a13b7f.png" Reference="hFfu5KskjUan_ffSuh-9Uw/Kcu7RjDRZEGPV5Dwl5hj_A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_Login'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_Login'" sap:VirtualizedContainerService.HintSize="1046,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" ContentHash="0BvgHNNZZUGjgvWiiM6Geg" CvElementArea="443, 819, 659, 67" CvTextArea="745, 840, 51, 22" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="445, 821, 654, 62" DesignTimeScaleFactor="1.3499999046325684" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button' aaname=' Login ' check:innerText='Login' /&gt;" Guid="139c9c1c-a8f9-46b8-89bd-720706f4de5a" InformativeScreenshot="1d9fcfc2312595de1d56b62d0aefbcb8.png" Reference="hFfu5KskjUan_ffSuh-9Uw/_X0y7C6X7Um9308r_lTgcA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Message_ChromeAlertPop'" sap:VirtualizedContainerService.HintSize="954,628.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="a91ee523-a2ee-4cfe-bad0-286d1e5423f7" Version="V3">
+            <uix:NCheckState DisplayName="Check App State 'Message_ChromeAlertPop'" sap:VirtualizedContainerService.HintSize="1046,754" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="a91ee523-a2ee-4cfe-bad0-286d1e5423f7" Version="V3">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,407.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="496,532.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Message_ChromeAlertPop'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V3">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Message_ChromeAlertPop'" sap:VirtualizedContainerService.HintSize="434,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V3">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable ContentHash="C-U-enMzjUOrD919C73x0w" CvElementArea="1171, 489, 114, 75" CvTextArea="1213, 517, 31, 19" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1181, 500, 96, 57" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Change your password' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Change your password' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' check:fulltext='OK' /&gt;" Guid="d7ca7747-210b-4710-93b0-f952563e1eef" InformativeScreenshot="3b48f4e8069a8727e3bde56b4bcaef92.png" Reference="hFfu5KskjUan_ffSuh-9Uw/QMFNXQSnuECNlclozptzpw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='OrangeHRM - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -161,22 +175,38 @@
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[LoginSucessfull]" />
+                  <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[LoginSucessfull]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">Postive</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[LoginSucessfull]" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,407.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="496,532.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NGetText DisplayName="Get Text 'Message_InvalidCredientials'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_2" TextString="[LoginUnsccessfull]" Version="V3">
+                  <uix:NGetText DisplayName="Get Text 'Message_InvalidCredientials'" sap:VirtualizedContainerService.HintSize="434,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_2" TextString="[LoginUnsccessfull]" Version="V3">
                     <uix:NGetText.Target>
                       <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" ContentHash="nv1zNL742kiO3q49K4qbNw" CvElementArea="442, 412, 658, 87" CvType="InputBox" DesignTimeRectangle="521, 444, 154, 26" DesignTimeScaleFactor="1.3499999046325684" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='oxd-text oxd-text--p oxd-alert-content-text' aaname='Invalid credentials' check:innerText='Invalid credentials' /&gt;" Guid="0cd9229b-7122-49bb-88b9-6454d06c4af5" InformativeScreenshot="cba66e9c3323e4e845bf956d089bf871.png" Reference="hFfu5KskjUan_ffSuh-9Uw/2pZ-5V94hEWwvhJKcQ9uXA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                     </uix:NGetText.Target>
                   </uix:NGetText>
-                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[LoginUnsccessfull +&quot;-------Inavlid&quot;]" />
+                  <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[LoginUnsccessfull]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">Negative</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[LoginUnsccessfull +&quot;-------Inavlid&quot;]" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
@@ -189,7 +219,7 @@
                 </uix:TargetAnchorable>
               </uix:NCheckState.Target>
             </uix:NCheckState>
-            <If Condition="[IsNothing(LoginSucessfull)]" sap:VirtualizedContainerService.HintSize="954,630" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[LoginSucessfull.Contains(&quot;Postive&quot;)]" sap:VirtualizedContainerService.HintSize="1046,711.3333333333334" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
                 <Sequence sap:VirtualizedContainerService.HintSize="376,446" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>

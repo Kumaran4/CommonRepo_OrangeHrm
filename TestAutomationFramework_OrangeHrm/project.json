@@ -4,7 +4,7 @@
   "description": "New Test Automation Framework",
   "main": "Main.xaml",
   "dependencies": {
-    "ObjectRepoLibrary_OrangeHrm": "[1.0.4]",
+    "ObjectRepoLibrary_OrangeHrm": "[1.0.6]",
     "ReporterForUiPath.Activities": "[3.0.1]",
     "UiPath.System.Activities": "[23.4.2]",
     "UiPath.Testing.Activities": "[23.4.0]",
@@ -58,19 +58,11 @@
         "fileName": "TestCase.xaml"
       },
       {
-        "editingStatus": "Publishable",
-        "testCaseId": "2f69a517-67e6-400f-b498-f09fdcaacc31",
-        "dataVariationFilePath": ".variations\\TestData_AddEmployee.json",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "Testcases\\TC01_LoginFunctionality.xaml"
-      },
-      {
         "editingStatus": "InProgress",
-        "testCaseId": "71535889-834b-450f-b7ee-0ce10f8b9629",
+        "testCaseId": "82c4bfc7-ac6a-49aa-b32b-5c793d09fd59",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Testcases\\TC02_AddEmployee.xaml"
+        "fileName": "TestCases\\Login\\TC01_LoginPostiveFlow.xaml"
       }
     ],
     "saveToCloud": false

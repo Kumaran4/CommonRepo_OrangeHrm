@@ -4,5 +4,30 @@
   "HelpLink": null,
   "Color": null,
   "OriginalIconFileName": null,
-  "Arguments": []
+  "Arguments": [
+    {
+      "Name": "str_LoginPassword",
+      "DisplayName": "str_LoginPassword",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "admin123",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "str_LoginUserName",
+      "DisplayName": "str_LoginUserName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Admin",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
 }
