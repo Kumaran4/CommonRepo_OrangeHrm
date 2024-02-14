@@ -6,8 +6,8 @@
   "OriginalIconFileName": null,
   "Arguments": [
     {
-      "Name": "str_LoginUserName",
-      "DisplayName": "str_LoginUserName",
+      "Name": "str_LoginPassword",
+      "DisplayName": "str_LoginPassword",
       "Category": null,
       "Tooltip": null,
       "Placeholder": null,
@@ -18,8 +18,8 @@
       "DataSourceItems": null
     },
     {
-      "Name": "str_LoginPassword",
-      "DisplayName": "str_LoginPassword",
+      "Name": "str_LoginUsername",
+      "DisplayName": "str_LoginUsername",
       "Category": null,
       "Tooltip": null,
       "Placeholder": null,

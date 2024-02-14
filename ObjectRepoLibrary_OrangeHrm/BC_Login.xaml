@@ -1,19 +1,19 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="BC_Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="str_LoginUserName" Type="InArgument(x:String)" />
     <x:Property Name="str_LoginPassword" Type="InArgument(x:String)" />
+    <x:Property Name="str_LoginUsername" Type="InArgument(x:String)" />
   </x:Members>
-  <this:BC_Login.str_LoginUserName>
-    <InArgument x:TypeArguments="x:String" />
-  </this:BC_Login.str_LoginUserName>
   <this:BC_Login.str_LoginPassword>
     <InArgument x:TypeArguments="x:String" />
   </this:BC_Login.str_LoginPassword>
+  <this:BC_Login.str_LoginUsername>
+    <InArgument x:TypeArguments="x:String" />
+  </this:BC_Login.str_LoginUsername>
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
   <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
-  <sap:VirtualizedContainerService.HintSize>902,1708</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>902,1710</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>BC_Login_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -98,19 +98,19 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="BC_Login" sap:VirtualizedContainerService.HintSize="912,1643" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="BC_Login" sap:VirtualizedContainerService.HintSize="912,1645" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Page_Login" sap:VirtualizedContainerService.HintSize="850,1532" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="7b6a1ba8-e2bc-417c-a5a5-98c8a1165cce" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Page_Login" sap:VirtualizedContainerService.HintSize="850,1534" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="7b6a1ba8-e2bc-417c-a5a5-98c8a1165cce" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="816,1315" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="816,1317" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
