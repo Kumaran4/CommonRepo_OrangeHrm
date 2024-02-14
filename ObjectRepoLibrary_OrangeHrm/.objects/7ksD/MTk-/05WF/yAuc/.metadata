@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Button_Save",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "yAuc56b4v0el8GS7Dtrhyg",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/yAuc56b4v0el8GS7Dtrhyg",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/05WF08QaK0uCufBX7cK-8Q",
+  "Created": "2024-02-14T02:39:26.6709888Z",
+  "Updated": "2024-02-14T02:40:04.7105794Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

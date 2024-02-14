@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Textbox_AttachmentComment",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "RTsqYzcQmkerJZYBGJRZTg",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/RTsqYzcQmkerJZYBGJRZTg",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/05WF08QaK0uCufBX7cK-8Q",
+  "Created": "2024-02-14T03:10:15.5860922Z",
+  "Updated": "2024-02-14T03:11:14.9458916Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

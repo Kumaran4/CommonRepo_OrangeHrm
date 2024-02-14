@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Button-Reset",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "O468NjIW1EOzeqiWnB3_0g",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/O468NjIW1EOzeqiWnB3_0g",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/8tOWOqj500iD57-zFxVd3Q",
+  "Created": "2024-02-14T03:33:19.7743729Z",
+  "Updated": "2024-02-14T03:33:54.5368525Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

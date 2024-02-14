@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Button_Active",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "BOVcGi1d602j3bsr622l_A",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/BOVcGi1d602j3bsr622l_A",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/05WF08QaK0uCufBX7cK-8Q",
+  "Created": "2024-02-14T02:32:36.3084215Z",
+  "Updated": "2024-02-14T02:33:43.9948625Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

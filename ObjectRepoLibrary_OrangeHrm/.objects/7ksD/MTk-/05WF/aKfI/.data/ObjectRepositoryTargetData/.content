@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jC8T5c5qLk-NoX9ZsI5pIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy" CvElementArea="504, 694, 413, 71" CvType="InputBox" DesignTimeRectangle="509, 700, 405, 59" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="2b74c87c-ed0f-411f-9675-ab74715b54b9" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="505, 664, 137, 19" CvTextArgument="Hiring Manager*" CvType="Text" DesignTimeRectangle="508, 662, 135, 24" ElementType="Text" FriendlyName="'Hiring Manager'" FullSelectorArgument="&lt;webctrl aaname='Hiring Manager' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Hiring Manager' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Hiring Manager' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a6d8268b2fa73a9d3fa88512139a91ed.png" xmlns="">0946bWGD-nUm96kxtV1ivbw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

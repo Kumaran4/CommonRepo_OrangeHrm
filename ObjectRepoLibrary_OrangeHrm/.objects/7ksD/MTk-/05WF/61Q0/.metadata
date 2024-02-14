@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Button_Publish",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "61Q0DJf2A0uz1lucdh_AEw",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/61Q0DJf2A0uz1lucdh_AEw",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/05WF08QaK0uCufBX7cK-8Q",
+  "Created": "2024-02-14T02:35:58.9362177Z",
+  "Updated": "2024-02-14T02:37:46.4710169Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sRaDbe9Qh02Qq0yZAx7NFg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy" CvElementArea="612, 249, 124, 57" CvTextArea="631, 268, 85, 18" CvTextArgument="Vacancies" CvType="Button" DesignTimeRectangle="617, 252, 117, 53" DesignTimeScaleFactor="1.5" ElementType="ListItem" FriendlyName="'Vacancies'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;nav&amp;gt;ul&amp;gt;li' idx='2' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='oxd-topbar-body-nav-tab --visited' tag='LI' aaname='' check:innerText='Vacancies' /&gt;" Guid="a5606924-9d0d-444c-a1b8-722a6cf037f7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="02e54effe396a035cbc40d3e37c1cc13.png" xmlns="">0Yxpll-eE60ShlhifBS1fJA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Button_Vacancies",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "UYRrQgZrsUmGEIHoF2_26A",
+  "Reference": "hFfu5KskjUan_ffSuh-9Uw/UYRrQgZrsUmGEIHoF2_26A",
+  "ParentRef": "hFfu5KskjUan_ffSuh-9Uw/05WF08QaK0uCufBX7cK-8Q",
+  "Created": "2024-02-14T02:21:58.3334143Z",
+  "Updated": "2024-02-14T02:22:25.1852716Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
